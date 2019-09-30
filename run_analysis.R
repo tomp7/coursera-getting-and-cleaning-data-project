@@ -29,7 +29,7 @@ testSubjects <- read.table(file.path(dataPath, "test", "subject_test.txt"))
 testValues <- read.table(file.path(dataPath, "test", "X_test.txt"))
 testActivity <- read.table(file.path(dataPath, "test", "y_test.txt"))
 
-# Reading in th features 
+# Reading in the features 
 features <- read.table(file.path(dataPath, "features.txt"), as.is = TRUE)
 
 # Reading the Activity Labels 
