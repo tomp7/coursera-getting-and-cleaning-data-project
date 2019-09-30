@@ -81,7 +81,7 @@ actDataCols <- gsub("Gyro", "Gyroscope", actDataCols)
 actDataCols <- gsub("Mag", "Magnitude", actDataCols)
 actDataCols <- gsub("Freq", "Frequency", actDataCols)
 actDataCols <- gsub("mean", "Mean", actDataCols)
-actDataCols <- gsub("std", "StandardDev", actDataCols)
+actDataCols <- gsub("std", "StandardDeviation", actDataCols)
 actDataCols <- gsub("BodyBody", "Body", actDataCols)
 
 ## Will use/display the updated column names 
