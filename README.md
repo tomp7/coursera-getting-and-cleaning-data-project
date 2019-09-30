@@ -9,5 +9,4 @@
 ### 3) Merges the training and test data sets to create one data set
 ### 4) The measurements on the mean and standard deviation for each measurement are extracted
 ### 5) Activities in the data set are then named and descriptive variable names are assigned
-### 6) A second independnt tidy set with the average of each variable for each activity and each subject is created
-###    under the name tidy_data.txt
+### 6) A second independnt tidy set with the average of each variable for each activity and each subject is created under the name tidy_data.txt
