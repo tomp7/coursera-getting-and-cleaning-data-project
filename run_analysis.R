@@ -36,10 +36,9 @@ features <- read.table(file.path(dataPath, "features.txt"), as.is = TRUE)
 activities <- read.table(file.path(dataPath, "activity_labels.txt"))
 colnames(activities) <- c("activityId", "activityLabel")
 
-
+## 1
 ## Merge
 ## Training data set & test data set merged to create a single data set called actData 
-
 ## Single data table creation 
 actData <- rbind(cbind(trainingSubjects, trainingValues, trainingActivity),
                  cbind(testSubjects, testValues, testActivity))
@@ -50,7 +49,7 @@ rm(trainingSubjects, trainingValues, trainingActivity, testSubjects, testValues,
 ## Assignment of the column names to newly created data set 
 colnames(actData) <- c("subject", features[, 2], "activity")
 
-
+## 2
 ## Extract
 ## Extracts only the measurements on the mean and standard deviation for each measurement
 ## Keeps only columns we want based on column name using grepl patern matching 
